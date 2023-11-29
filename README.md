@@ -6,7 +6,7 @@ Things to do first:
 3. paste the url in index.js inside the server folder at the following line:
   
 mongoose
-  .connect(url, {
+  .connect("url", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }).then(()=>console.log("DB connected")).catch((err)=>console.log(err)); 
